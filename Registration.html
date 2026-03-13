@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PG Booking Registration</title>
+<link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="login-box">
+
+<h2>PG Booking System - Registration</h2>
+
+<form>
+
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" placeholder="Enter your full name" required>
+
+<br><br>
+
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+<br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" placeholder="Enter your email" required>
+
+<br><br>
+
+<label for="usertype">Register As:</label><br>
+<select id="usertype" required>
+<option value="">Select User Type</option>
+<option value="customer">Customer</option>
+<option value="seller">Seller (PG Owner)</option>
+</select>
+
+<br><br>
+
+<label for="password">Password:</label><br>
+<input type="password" id="password" placeholder="Create password" required>
+
+<br><br>
+
+<label for="confirm">Confirm Password:</label><br>
+<input type="password" id="confirm" placeholder="Confirm password" required>
+
+<br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+<br>
+
+<a href="login.html">Already have an account? Login</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
